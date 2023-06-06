@@ -9,7 +9,10 @@ rm command - rm greetings.txt
 mkdir command - mkdir archieve
 mv command - mv salutations.txt archieve
 pwd command - pwd
-cd command - cd~/linux-assignment
+cd command - cd archieve
+ls command - ls
+cd command - cd ..
 touch command - touch file1.txt file2.txt file3.txt
 ls command - ls
-touch command - touch ~/linux-assignment-command.txt
+touch command - touch ~/linux-assignment-commands.txt
+(command -line text editor - nano linux-assignment-commands.txt)
