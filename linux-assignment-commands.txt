@@ -1,18 +1,68 @@
-mkdir command -  mkdir ~/linux-assignment
-cd command - cd ~/linux-assignment 
-touch command - touch instructions.txt
-(Command -line text editor - nano instructions.txt)
-cat command - cat instructions.txt
-mv command - mv instructions.txt greetings.txt
-cp command - cp greetings.txt salutations.txt
-rm command - rm greetings.txt
-mkdir command - mkdir archieve
-mv command - mv salutations.txt archieve
-pwd command - pwd
-cd command - cd archieve
-ls command - ls
-cd command - cd ..
-touch command - touch file1.txt file2.txt file3.txt
-ls command - ls
-touch command - touch ~/linux-assignment-commands.txt
-(command -line text editor - nano linux-assignment-commands.txt)
+-------------------------------------------------------------------------------------------------------------------------------LINUX COMMAND ASSIGNMENT--------------------------------------------------------------------------------------
+
+#The objective of this assignment is to familiarize yourself with the Linux command line by performing common tasks such as navigating the filesystem, manipulating files, and viewing file content.
+
+TASK 1 : Create a new directory called linux-assignment in your home directory.
+         
+                ->  mkdir command -  mkdir ~/linux-assignment
+
+TASK 2 : Navigate into the linux-assignment directory.
+                  
+                ->  cd command - cd ~/linux-assignment 
+
+TASK 3 : Create a new file called instructions.txt.
+
+                ->  touch command - touch instructions.txt
+
+TASK 4 : Write "Hello, World!" into instructions.txt using a command-line text editor like nano, vi, or emacs.
+
+                  -> Command-line text editor - nano instructions.txt
+
+TASK 5 : Display the contents of instructions.txt using a command.
+
+                  -> cat command - cat instructions.txt
+
+TASK 6 : Rename instructions.txt to greetings.txt.
+
+                  -> mv command - mv instructions.txt greetings.txt
+
+TASK 7 : Copy greetings.txt to a new file called salutations.txt.
+
+                  -> cp command - cp greetings.txt salutations.txt
+
+TASK 8 : Delete greetings.txt.
+
+                  -> rm command - rm greetings.txt
+
+TASK 9 : Create a new directory called archive
+
+                  -> mkdir command - mkdir archieve
+
+TASK 10 : Move salutations.txt to the archive directory.
+
+                  -> mv command - mv salutations.txt archieve
+
+TASK 11 : Display the current working directory to confirm that salutations.txt is now in the archive directory.
+
+                   -> pwd command - pwd
+
+                   ->  cd command - cd archieve
+
+                   ->  ls command - ls
+
+
+TASK 12 : Navigate back to the linux-assignment directory and create three new empty files named file1.txt, file2.txt, and file3.txt.
+
+                    -> cd command - cd ..
+
+                   -> touch command - touch file1.txt file2.txt file3.txt
+
+TASK 13 : Display the list of files in the linux-assignment directory to confirm the creation of the new files.
+
+                    -> ls command - ls
+
+TASK 14 : Create a new text file in your home directory named linux-assignment-commands.txt and write down all the commands you used in this assignment.
+
+                    -> touch command - touch ~/linux-assignment-commands.txt
+
+                    -> (command -line text editor - nano linux-assignment-commands.txt)
